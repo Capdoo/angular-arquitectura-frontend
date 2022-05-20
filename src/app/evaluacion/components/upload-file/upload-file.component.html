@@ -1,0 +1,39 @@
+<div class="container-mt-3">
+    <div class="row">
+        <div class="col-md-4 mx-auto">
+            <h1>Subir el formulario</h1>
+        </div>
+    </div>    
+
+</div>
+
+<div class="container-mt-3">
+
+    <div class="row">
+        <div class="col-md-4 mx-auto">
+            <form  [formGroup] = "uploadForm" (ngSubmit)="onSubmit()">
+                <br>
+                <div class="form-group">
+
+                    <label for="nombre">Nombre</label>
+                    <input type="text" class="form-control" id="nombre" name="nombre"  name="nombre" required>
+
+                </div>
+                <br>
+                <div class="mb-3">
+                    <label for="formFile" class="form-label">Formulario</label>
+                    <input class="form-control" type="file" id="file" name="profile" (change)="onFileSelect($event)">
+                </div>
+                <br>
+                <div class="form-group">
+                    <button class="btn btn-outline-success btn-block">Cargar</button>
+                </div>
+
+            </form>
+
+        </div>
+
+
+    </div>
+
+</div>
