@@ -21,7 +21,7 @@ export class TermicoComponent implements OnInit {
 
     this.evaluacion = JSON.parse(localStorage.getItem('ultimaEvaluacion'));
 
-    console.log("Solo es una prueba");
+    console.log("Solo es una prueba 2");
     this.envolvente1 = this.evaluacion.evaluacionTermico.envolvente1;
     this.envolvente2 = this.evaluacion.evaluacionTermico.envolvente2;
     this.envolvente3 = this.evaluacion.evaluacionTermico.envolvente3;
