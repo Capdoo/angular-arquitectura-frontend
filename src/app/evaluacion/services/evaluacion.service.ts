@@ -8,7 +8,8 @@ import {Evaluacion} from '../interfaces/evaluacion-interface';
 })
 export class EvaluacionService {
 
-  evaluacionURL = 'http://localhost:8090/evaluacion/';
+  //evaluacionURL = 'http://localhost:8090/evaluacion/';
+  evaluacionURL = 'https://spring-arquitectura-backend.herokuapp.com/evaluacion/';
 
   constructor(private httpClient: HttpClient) { }
 
