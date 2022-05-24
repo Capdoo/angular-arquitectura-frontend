@@ -1,6 +1,7 @@
 export interface Evaluacion{
     evaluacionTermico: Termico;
     evaluacionLuminico: Luminico;
+    evaluacionCondensadores: Condensadores;
 }
 
 export interface Termico{
@@ -10,6 +11,13 @@ export interface Termico{
     envolvente4: number;
 
     isCumple: boolean;
+}
+
+export interface Condensadores{
+    tsi_muro: number;
+    tsi_techo: number;
+    tsi_piso: number;
+    hr: number;
 }
 
 export interface Luminico{

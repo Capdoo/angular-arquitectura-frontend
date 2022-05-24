@@ -19,6 +19,7 @@ import { LuminicoComponent } from './evaluacion/components/luminico/luminico.com
 
 import { PaginationComponent } from './shared/pagination/pagination.component';
 import { FooterComponent } from './shared/footer/footer.component';
+import { CondensadoresComponent } from './evaluacion/components/condensadores/condensadores.component';
 
 
 
@@ -30,7 +31,8 @@ import { FooterComponent } from './shared/footer/footer.component';
     TermicoComponent,
     LuminicoComponent,
     PaginationComponent,
-    FooterComponent
+    FooterComponent,
+    CondensadoresComponent
   ],
   imports: [
     BrowserModule,
